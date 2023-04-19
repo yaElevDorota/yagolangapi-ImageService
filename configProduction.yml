@@ -1,0 +1,27 @@
+# Database credentials
+database:
+  # antingen denna
+  file: "" 
+  # eller alla dessa (om file är blankt)
+  sql-user: "root"            #
+  sql-pass: "my-secret-pw"
+  sql-server: "127.0.0.1"
+  sql-database: "Salary"
+  sql-port: 3307
+
+redis:
+  server: "localhost:6379"
+
+sso:
+  clientId:  "StudentPortal"
+  clientSecret:  "EM4WKTSRUXVWG5RBTXC3VPOBTMF5Y3SL"
+  baseAddress:  "https://localhost:44375/"
+  backBaseAddress: "https://localhost:8080/"
+
+
+s3:
+  aws_key: "0031162fe9996230000000004"
+  aws_secret: "K003UBTE8G1i6GzRIf91cB9g1vv+Q6E"
+  s3_host_base: "s3.eu-central-003.backblazeb2.com"
+  urlgenerator: "https://f003.backblazeb2.com/file/<BUCKETNAME>/<FILENAME>"
+  bucket: "externals3"
